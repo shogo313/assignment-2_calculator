@@ -1,0 +1,27 @@
+.calculator {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+.calculator_display {
+    text-align: right;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding-right: 10px;
+}
+.calculator_button {
+    font-size: 20px;
+}
+.size1x {
+    flex-basis: 25%;
+}
+.size2x {
+    flex-basis: 50%;
+}
+.size3x {
+    flex-basis: 75%;
+}
+.size4x {
+    flex-basis: 100%;
+}

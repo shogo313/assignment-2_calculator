@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset-1.6.1.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>電卓</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <p class="calculator_display size4x" id="display">0</p>
+      <input onclick="numberClick(this)" type="button" class="calculator_button size1x" value="7">
+      <input onclick="numberClick(this)" type="button" class="calculator_button size1x" value="8">
+      <input onclick="numberClick(this)" type="button" class="calculator_button size1x" value="9">
+      <input onclick="equalClick()" type="button" class="calculator_button size1x initialState_disabled" value="=">
+      <input onclick="numberClick(this)" type="button" class="calculator_button size1x" value="4">
+      <input onclick="numberClick(this)" type="button" class="calculator_button size1x" value="5">
+      <input onclick="numberClick(this)" type="button" class="calculator_button size1x" value="6">
+      <input onclick="operatorClick(this)" type="button" class="calculator_button size1x initialState_disabled" value="/">
+      <input onclick="numberClick(this)" type="button" class="calculator_button size1x" value="1">
+      <input onclick="numberClick(this)" type="button" class="calculator_button size1x" value="2">
+      <input onclick="numberClick(this)" type="button" class="calculator_button size1x" value="3">
+      <input onclick="operatorClick(this)" type="button" class="calculator_button size1x initialState_disabled" value="*">
+      <input onclick="numberClick(this)" type="button" class="calculator_button size2x" value="0">
+      <input onclick="decimalClick(this)" type="button" class="calculator_button size1x" value=".">
+      <input onclick="operatorClick(this)" type="button" class="calculator_button size1x" value="+">
+      <input onclick="clearClick()" type="button" class="calculator_button size3x" value="AC">
+      <input onclick="operatorClick(this)" type="button" class="calculator_button size1x" value="-">
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
